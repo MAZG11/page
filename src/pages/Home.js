@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Title } from '../components/Title';
 import { SearchForm } from '../components/SearchForm';
 import { MoviesList } from '../components/MoviesList';
+import FooterComponent from '../components/FooterComponent';
 
 export class Home extends Component {
   state = { usedSearch: false, results: [] };
@@ -20,17 +21,21 @@ export class Home extends Component {
 
   render() {
     return (
-      <div className='prueba'>
-        <Title> Buscador </Title>
-        <div className="SearchForm-wrapper">
-          <SearchForm onResults={this._handlResults} />
-        </div>
-        {this.state.usedSearch ? (
-          this._renderResults()
-        ) : (
-          <small>Edúcate respecto a lo que comes</small>
-        )}
-      </div>
+        <>
+          <div className='prueba'>
+            <Title> Buscador </Title>
+            <div className="SearchForm-wrapper">
+              <SearchForm onResults={this._handlResults} />
+            </div>
+            {this.state.usedSearch ? (
+              this._renderResults()
+              ) : (
+              <small>Edúcate respecto a lo que comes</small>
+            )}
+          </div>
+        <FooterComponent />
+      <div />
+      </>
     );
   }
 }

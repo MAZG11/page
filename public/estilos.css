@@ -136,7 +136,10 @@ footer{
 }
 
 .imagenCard {
-   transform: translateX(25%);
+    margin-left: 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .titulo-final{
@@ -148,8 +151,8 @@ footer{
 }
 
 @media screen and (max-width: 1000px) {
-    #root {
-        transform: translateY(20%);
+    .prueba {
+        transform: translateY(50%);
         background-position: center;
         align-items: center;
     }
