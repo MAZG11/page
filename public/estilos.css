@@ -20,6 +20,7 @@ body{
  min-height: 100%;
  width: 100%;
  min-width: 50%;
+ overflow: hidden !important;
  
 }
 
@@ -101,7 +102,7 @@ footer{
     text-align: center;
     margin: auto;
     overflow: hidden;
-    top: 89%;
+    top: 87%;
     padding: 0;
     background-size: cover;
     background-attachment: fixed;
