@@ -15,11 +15,12 @@ export class MoviesList extends Component {
         {movies.map((product) => {
           console.log(product);
           return (
-            <div key={product.name} className="MovieList-item">
+            <div key={product.name} className="MoviesList-item">
               <Movie
                 id={product.name}
                 title={product.name}
-                                poster={product.imgUrl}
+                poster={product.imgUrl}
+                quantity={movies.length}
               />
             </div>
           );

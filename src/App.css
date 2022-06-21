@@ -16,7 +16,7 @@ html {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  padding: 16px;
+  padding: 2%;
   flex-direction: row;
   align-content: center;
   align-items: center;
@@ -24,21 +24,38 @@ html {
 
 .prueba {
   width: auto;
-  height: 60%;
-  padding-top: 10%;
-  
+  height: 10%;
+  padding-top: 5%;
 }
 
 
 .image{
   display: block;
   height: auto;
-  width: 57%;
-  margin: 0% 22%;
+  width: 50%;
+  padding-bottom: 0%;
+  background-color: red;
+}
+
+.greaterImage{
+  display: block;
+  height: auto;
+  padding-bottom: 0%;
+  transform: translateX(30%);
+  width: 30%;
+}
+
+@media screen and (max-width: 1000px) {
+   .MoviesList {
+    width: 100%;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+   }
 }
 
 .MoviesList-item {
-  margin-bottom: 24px;
-  width: 48%;
+  margin-bottom: 1px;
+  width: 80%;
   
 }
