@@ -1,0 +1,44 @@
+.App {
+  padding-top: 10%;
+  text-align: center;
+}
+
+html {
+  background: none;
+}
+
+.SearchForm-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.MoviesList {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 16px;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.prueba {
+  width: auto;
+  height: 60%;
+  padding-top: 10%;
+  
+}
+
+
+.image{
+  display: block;
+  height: auto;
+  width: 57%;
+  margin: 0% 22%;
+}
+
+.MoviesList-item {
+  margin-bottom: 24px;
+  width: 48%;
+  
+}

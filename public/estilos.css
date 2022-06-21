@@ -1,0 +1,238 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+ height: 100%;
+ width: 100%;
+ margin: 0px;
+}
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(180deg, rgba(9, 122, 255, 0.8) 0%, rgba(2, 117, 253, 0) 100%);
+    background-size: cover;
+    
+    position: relative;
+    
+ height: 100%;
+ min-height: 100%;
+ width: 100%;
+ 
+}
+
+.header {
+    margin: auto;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Open Sans';
+    margin-bottom: 60px; 
+    overflow: hidden;
+}
+
+
+header .textos-header{
+    display: flex;
+    
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+    width: 900px;
+    height: 150px;
+    left: 220px;
+    top: 100px;
+    border: 1px solid #000000; 
+}
+  
+.textos-header h1{
+    font-size: 80px;
+    color: #FFFFFF;
+    font-weight: 300;
+    line-height: 136px;
+    
+}
+
+.icono{
+    height: 50px;
+    margin: 0% 0% 0%;
+    padding: 0;
+}
+
+.buscador-cuadro h2{
+    font-size: 50px;
+    font-weight: 600;
+    color:rgb(5, 5, 5);
+}
+
+.busca-texto{
+    background: #FFFFFF;
+    border: 2px solid #CECECE;
+    border-radius: 70px;
+    width: 500px;
+    height: 60px;
+    left: 390px;
+    top: 982px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.buscador-cuadro button{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    top: 150px;
+    left: 255px;
+    background: #097AFF;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer{
+    width: 100%;
+    background: #1E2B38;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    top: 1000px;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedor-footer{
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    border-bottom: 1px solid #ccc;
+   
+}
+
+
+.contenedor-footer h4{
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+.contenedor-footer p{
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+.titulo-final{
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    color: #535d66;
+    font-weight: 500;
+}
+
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+
+    .textos-header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textos-header .h1{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav > a{
+        margin-right: 5px;
+    }
+
+    .textos-header h1{
+        font-size: 35px;
+    }
+
+    .textos-header h2{
+        font-size: 20px;
+    }
+
+    /* ABOUT US */
+
+    .imagen-about-us{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 95%;
+    }
+
+    /* Galeria */
+
+    .imagen-port{
+        width: 95%;
+    }
+
+    /* Clients */
+
+    .cards .card{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards .card img{
+        width: 90px;
+        height: 90px;
+    }
+
+    /* Footer */
+
+    .contenedor-footer{
+        flex-direction: column;
+        border: none;
+        align-items: flex-end;
+    }
+
+    .content-foo{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content-foo h4{
+        border: none;
+    }
+
+    .content-foo p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .titulo-final{
+        font-size: 20px;
+    }
+}

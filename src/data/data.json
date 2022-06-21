@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Papas fritas sabor a Pollo ",
+    
+    "imgUrl": "../img/papas.jpg"
+  },
+  {
+    "name": "Bebida gaseosa sabor a Manzana",
+   
+    "imgUrl": "../img/gaseosas.jpg"
+  },
+  {
+    "name": "Galletas con chispas de chocolate",
+    
+    "imgUrl": "../img/galletas.jpg"
+  }
+]
